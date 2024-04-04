@@ -1,13 +1,13 @@
 {
   "name": "csv_upload",
   "version": "1.0.0",
-  "description": "a web app to upload csv and display the contents in the frontend",
+  "description": "A web application for uploading CSV files and displaying their contents on the frontend.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js -e js, ejs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Coding Ninjas",
+  "author": "Kaustuv Mishra",
   "license": "ISC",
   "dependencies": {
     "connect-flash": "^0.1.1",

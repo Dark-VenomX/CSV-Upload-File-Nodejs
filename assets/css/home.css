@@ -1,16 +1,16 @@
-.main{
+.main {
   height: 80vh;
 }
 
-.home-container{
+.home-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color:#0044d4;
+  color: #0044d4; /* Blue */
 }
 
-.home-container form{
+.home-container form {
   display: flex;
   justify-content: space-between;
   width: 20%;
@@ -23,36 +23,34 @@ input[type="file"] {
 }
 
 .custom-file-upload {
-  color: #0044d4;
+  color: #0044d4; /* Blue */
   padding: 7px 14px;
   cursor: pointer;
   font-size: 1.2rem;
   border-radius: 5px;
-  border: 1px solid #0044d4;
+  border: 1px solid #0044d4; /* Blue */
 }
 
-.custom-file-upload:hover{
+.custom-file-upload:hover {
   color: white;
-  background-color: #0044d4;
+  background-color: #0044d4; /* Blue */
 }
 
-button{
+button {
   border: none;
   outline: none;
   padding: 10px 20px;
   color: white;
-  background-color: #0044d4;
+  background-color: #0044d4; /* Blue */
   font-size: 1.2rem;
   border-radius: 5px;
-
 }
 
-button:hover{
-  background-color: #033092;
-  
+button:hover {
+  background-color: #033092; /* Dark blue */
 }
 
-.uploaded-files{
+.uploaded-files {
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
@@ -65,27 +63,26 @@ button:hover{
   width: 35%;
 }
 
-.uploaded-files ul{
+.uploaded-files ul {
   margin: 0;
   padding: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
 
-.uploaded-files ul a{
+.uploaded-files ul a {
   text-decoration: none;
-  color: #0044d4;
+  color: #0044d4; /* Blue */
 }
 
 @media only screen and (max-width: 600px) {
-  .home-container form{
+  .home-container form {
     width: 80%;
     margin-bottom: 2rem;
   }
 
-  .uploaded-files{
+  .uploaded-files {
     font-size: 1.2rem;
     width: 75%;
   }
